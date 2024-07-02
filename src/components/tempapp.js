@@ -43,7 +43,7 @@ const TempApp = () => {
           </div>
           {city ? (
             <div className="info">
-              <h2 className="location">City: {search}</h2>
+              <h2 className="location">City:{search}</h2>
               <h1 className="temp">{city.temp}°C</h1>
               <h3 className="tempmin_max">
                 {city.temp_max}°C | {city.temp_min}°C
